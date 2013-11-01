@@ -1,5 +1,12 @@
 #ignore vim temp file
 *~
+*.swp
 
 #ignore .exe
-#*.exe
+*.exe
+
+#ignore .o
+*.o
+
+#ignore test file
+*.test
