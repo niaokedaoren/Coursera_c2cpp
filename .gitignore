@@ -3,7 +3,7 @@
 *.swp
 
 #ignore .exe
-*.exe
+*.exe Main
 
 #ignore .o
 *.o

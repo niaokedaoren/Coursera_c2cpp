@@ -18,8 +18,8 @@ void runMST(const Graph &graph, const MinSpanTree &mst)
 	cout << "MST's edges: " << endl;
 	for (int i=0; i<mstEdges.size(); i++)
 	{
-		cout << "(" << mstEdges[i].x << ", " << mstEdges[i].y 
-			 << ", " << mstEdges[i].value << "), ";
+		cout << "(" << mstEdges[i].x << "->" << mstEdges[i].y 
+			 << ", cost=" << mstEdges[i].value << ") ";
 
 		if ( (i + 1) % 5 == 0)
 			cout << endl;
