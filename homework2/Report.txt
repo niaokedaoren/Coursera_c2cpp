@@ -1,0 +1,11 @@
+Program's output:
+For the graph with density = 0.2, the average path length = 6.04082
+For the graph with density = 0.4, the average path length = 4.18367
+For the graph with density = 0.5, the average path length = 3.95918
+
+1. Learn to write Makefile
+2. Review how to implement PriorityQueue with indices, and Dijkstra algorithm
+3. Subtle bug: error: expected initializer before ¡®namespace¡¯, due to I forgot to add a ";" in one head file
+4. I define a global variable "INFINITY" to denote the lenght of two unconnected vertices. 
+The program works well under ubuntu. But when it is compiled by MinGW, the compiler gives warning: overflow in implicit constant conversion [-Woverflow], 
+and "INFINITY" is treated as "inf". So far, I have not found the reason.
