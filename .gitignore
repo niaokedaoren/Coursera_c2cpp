@@ -10,3 +10,4 @@
 
 #ignore test file
 *.test
+*.txt
